@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="istyles.css">
+</head>
+<body>
+  <a id = 'convert' href = "index2.html" >GRE-ETH</a>
+  <header>
+       <div id="clock"></div>
+    <h1 class = "center">ባህረ ሃሳብ</h1>
+    
+   </header>
+   <main>
+     <h2>From Ethiopian to Gregorian Calender</h2>
+       <form id="form">
+         <div id = "maindiv">
+           <div class="input">
+             <label for = 'date'>Select a Day:   </label>
+               <select id = 'date' class="inputs">
+                 <option>01</option><option>02</option><option>03</option><option>04</option><option>05</option>
+                 <option>06</option> <option>07</option> <option>08</option> <option>09</option><option>10</option>
+                 <option>11</option> <option>12</option> <option>13</option> <option>14</option> <option>15</option><option>16</option>
+                 <option>17</option><option>18</option><option>19</option><option>20</option><option>21</option>
+                 <option>22</option><option>23</option><option>24</option><option>25</option><option>26</option>
+                 <option>27</option><option>28</option><option>29</option><option>30</option>
+               </select>
+           </div>
+           <div class="input">
+              <label for = 'month'>Select a Month:</label>
+                <select id = "month"  class="inputs">
+                    <option value="1">መስከረም(September)</option>
+                    <option value="2">ጥቅምት(October)</option>
+                    <option value="3">ህዳር(November)</option>
+                    <option value="4">ታህሳስ(December)</option>
+                    <option value="5">ጥር(January)</option>
+                    <option value="6">የካቲት(February)</option> 
+                    <option value="7">መጋቢት(March)</option>
+                    <option value="8">ሚያዚያ(April)</option> 
+                    <option value="9">ግንቦት(May)</option>
+                    <option value="10">ሰኔ(June)</option>
+                    <option value="11">ሃምሌ(July)</option>
+                    <option value="12">ነሃሴ(August)</option>
+                    <option value="13">ጳጉሜ(Pagume)</option>
+                </select>
+            </div>
+            <div class="input">
+              <label for = 'year' >Select the Year:</label>
+                <input type = 'number' id = 'year' value = '2018' class="inputs">
+            </div>
+         </div>
+         <div id = "change-button">
+           <button id = 'change' type="button">Convert</button>
+         </div>
+       </form>
+    <div id = "dmy"></div> 
+    <p id="result"></p>
+  </main>
+  <script src="index1.js"></script>    
+</body>
+</html>
