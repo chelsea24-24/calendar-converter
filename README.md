@@ -26,11 +26,6 @@ basic frontend development skills, date calculations, and logical problem solvin
 - `index1.js` – Logic for Ethiopian → Gregorian conversion
 - `index2.js` – Logic for Gregorian → Ethiopian conversion
 
-## Purpose
-This project was developed as part of my application to the **Addis Coders Program**.
-It demonstrates my interest in programming and my ability to build and organize
-a small web project independently.
-
 ## Author
-**Sami Yab**
+**Bereket Mekonen**
 
